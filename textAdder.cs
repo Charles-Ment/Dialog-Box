@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class textAdder : MonoBehaviour
 {
-    float timeCount=0;
-    int count=0;
+    float timeCount = 0;
+    int count = 0;
     
     public float typingSpeed;
     public Text text;
@@ -17,7 +17,6 @@ public class textAdder : MonoBehaviour
         text.text = "";
     }
 
-    // Update is called once per frame
     void Update()
     {
         // The Time.deltaTime (the time for each frames) is added to the timeCount variable to obtain the time since the last change to the text.
@@ -35,7 +34,6 @@ public class textAdder : MonoBehaviour
                 count++;
 
             }
-
         }
 
     }
